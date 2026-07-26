@@ -1,8 +1,23 @@
 aid: downstream-energy
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/downstream-energy.png
 name: Downstream Energy
-description: Downstream Energy is a company surfaced as a portfolio company of insight-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Downstream Energy is a software company that provides business-to-business electronic commerce
+  solutions for the refined petrochemical and downstream petroleum industry, supporting the buying and selling
+  of refined products such as gasoline, distillate, propane, and jet fuel. It is a portfolio company of Insight
+  Partners. No public developer portal, API documentation, or machine-readable API specification has been located
+  for this provider during enrichment, so the profile remains a lightly enriched identity stub pending discovery
+  of a public API surface.
 url: https://raw.githubusercontent.com/api-evangelist/downstream-energy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +27,24 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Energy
+- Oil and Gas
+- Petrochemical
+- E-commerce
+- B2B
+- Refined Products
+- Downstream
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
